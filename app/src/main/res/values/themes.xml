@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light ثابت: روی بعضی گوشی‌ها DayNight متن فیلد را سفید می‌کند -->
+    <style name="Theme.Amar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">#212529</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">#212529</item>
+        <item name="android:textColorSecondary">#495057</item>
+        <item name="android:editTextColor">#212529</item>
+        <item name="android:textColorHint">#6c757d</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="editTextStyle">@style/Widget.Amar.EditText</item>
+    </style>
+
+    <style name="Widget.Amar.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">#212529</item>
+        <item name="android:textColorHint">#6c757d</item>
+        <item name="android:background">@drawable/bg_edit_pages</item>
+    </style>
+</resources>
